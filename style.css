@@ -1,0 +1,255 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Tahoma;
+  
+}
+a {
+  color: hotpink;
+  
+}
+a#b1 {
+  color: black;
+  font-family: 'Segoe UI';
+  text-decoration: none
+}
+a#b1:visited {
+  color: black;
+  font-family: 'Segoe UI';
+  text-decoration: none
+}
+a:visited {
+  color: purple;
+}
+a:active{
+  color: aquamarine;
+}
+
+.top {
+	text-shadow: rgb(0 0 0/ 50%) 5px 5px 4px;
+}
+
+.taskbar {
+      width: auto;
+      height: 40px;
+      margin: 0px;
+    }
+    
+    .bar {
+      width:100%;
+      height:30px;
+      position:absolute;
+      bottom: 0px;
+      left:0px;
+	  z-index: 2;
+      background-color: gray;
+      background-image:url("./hud/vistabarhorizontal.png");
+	  opacity: 0.90;
+    }
+    .start {
+      width:40px;
+      height:34px;
+      position:absolute;
+      bottom:0px;
+      left:8px;
+	  z-index: 3;
+      background-image:url("./hud/vistastart.png");
+    }
+	
+	.menu {
+	  width:406px;
+	  height:543px;
+	  position:absolute;
+	  left:0px;
+	  bottom:30px;
+	  box-shadow: 2px 10px 5px rgb(0 0 0/ 100%);
+	  background-image:url("./hud/menu/vistamenu.png");
+    }
+		.coisas {
+		  width:248px;
+		  height:493px;
+		  position:absolute;
+		  left:10px;
+		  bottom:39px;
+		  background-color:none;
+		}
+		.b1{
+		  position:relative;
+		  width:240px;
+		  height:70px;
+		  left: 2px;
+		  top: 1px;
+		  margin-left: 2px;
+		  margin-top: 2px;
+		  border-radius:4px;
+		  text-shadow: none;
+		  cursor: pointer;
+		  color: black;
+		  background-color: rgb(0 0 0/ 0%);
+		  font-family: 'Segoe UI';
+		} 
+
+		.b1:hover{
+		  cursor: pointer;
+		  color: black;
+		  border:2px solid;
+		  margin-left: 0px;
+		  margin-top: 0px;
+		  border-color: rgb(0 130 255/ 100%);
+		  font-family: 'Segoe UI';
+		  background: linear-gradient(180deg,rgba(100, 175, 255, 0.25) 0%, rgba(15, 135, 255, 0.65) 90%);
+		}
+		.pfp {
+		  width:100px;
+		  height:100px;
+		  position: absolute;
+		  left:280px;
+		  bottom:487px;
+		  background-image:url("./hud/menu/vistaframe.png"), url("./hud/menu/vistapfp.png");
+		  background-size: 100%, 150%;
+		  background-position-x: 0px, -25px;
+		  background-position-y: 0px, -19px;
+		}
+	
+.links {
+  position: absolute;
+  width: auto;
+  height: auto;
+  margin: 0px;
+  top: 0px;
+  left: 0px;
+}
+
+  .steam {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    padding: 0px 0px;
+    margin: 0px; 
+    cursor: pointer;
+    font-size: 15px;
+    border: 0px;
+    background-color: rgb(0 0 0/ 0%);
+    background-image:url("./hud/steamvista.png");
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 20%;
+    text-shadow: rgb(0 0 0/ 25%) 0 10px 25px;
+  }
+
+
+
+  .youtube {
+    position: absolute;
+    top: 10px;
+    left: 110px;
+    padding: 0px 0px;
+    margin: 0px; 
+    cursor: pointer;
+    font-size: 15px;
+    border: 0px;
+    background-color: rgb(0 0 0/ 0%);
+    background-image:url("./hud/youtubevista.png");
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 20%;
+    text-shadow: rgb(0 0 0/ 25%) 0 10px 25px;
+  }
+  
+   .blog {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    padding: 0px 0px;
+    margin: 0px; 
+    cursor: pointer;
+    font-size: 15px;
+    border: 0px;
+    background-color: rgb(0 0 0/ 0%);
+    background-image:url("./hud/blogvista.png");
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 20%;
+    text-shadow: rgb(0 0 0/ 25%) 0 10px 25px;
+  }
+  .old {
+    position: absolute;
+    top: 35vw;
+    left: 76vw;
+    padding: 0px 0px;
+    margin: 0px; 
+    cursor: pointer;
+    font-size: 15px;
+    border: 0px;
+    background-color: rgb(0 0 0/ 0%);
+    background-image:url("./hud/trashvista.png");
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 20%;
+    text-shadow: rgb(0 0 0/ 25%) 0 10px 25px;
+  }
+
+.btn {
+	display: flex;
+	position:absolute;
+	flex-direction: column;
+	border: 15px;
+	right: 0px;
+}
+
+.side {
+	position:absolute;
+	width: 300px;
+	height: 100%;
+	right: 0px;
+	top: 0px;
+	z-index: -1;
+	background: linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.75) 75%);
+}
+
+button#wppS,#wppV,#wpp6,#wppF{
+  cursor: pointer;
+  background-color: rgb(255 255 255/ 100%);
+  color: black;
+  font-family: 'Segoe UI';
+  outline: 1px solid;
+  margin: 5px 5px;
+  width: 210px;
+  height: 26px;
+  outline-color: rgb(200 200 200/ 100%);
+} 
+
+button#wppS:hover{
+  background-color: rgb(177 177 177/ 100%);
+} 
+button#wppV:hover{
+  background-color: rgb(177 177 177/ 100%);
+} 
+button#wpp6:hover{
+  background-color: rgb(177 177 177/ 100%);
+}
+button#wppF:hover{
+  background-color: rgb(177 177 177/ 100%);
+}
+
+ 
+
+button{
+  background-color: rgb(0 0 0/ 0%);
+  color: white;
+  text-shadow: 2px 2px 2px rgb(0 0 0/ 100%);
+  font-family: 'Segoe UI';
+  border: 0px;
+  width: 80px;
+  height: 100px;
+  margin: 0px;
+}
+
+button:hover {
+    background-color: rgb(0 90 122/ 50%);
+    border-color: rgb(0 115 122/ 75%);
+}
+
+button:active {
+      background-color: rgb(0 50 122/ 50%);
+}
